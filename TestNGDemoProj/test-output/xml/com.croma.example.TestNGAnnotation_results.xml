@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="3"
+           time="0.000">
+  <properties />
+            <testcase name="login" time="0.000" classname="com.croma.example.TestNGAnnotation">
+                <failure type="org.testng.TestNGException"
+                  message="
+Method login requires 2 parameters but 0 were supplied in the @Test annotation."
+              >
+<![CDATA[org.testng.TestNGException: 
+Method login requires 2 parameters but 0 were supplied in the @Test annotation.
+  org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+  org.testng.internal.Parameters.createParameters(Parameters.java:134)
+  org.testng.internal.Parameters.createParameters(Parameters.java:373)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+  org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+  org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="buyItem" time="0.0" classname="com.croma.example.TestNGAnnotation">
+          <skipped />
+    </testcase>
+            <testcase name="shippingDetails" time="0.0" classname="com.croma.example.TestNGAnnotation">
+          <skipped />
+    </testcase>
+            <testcase name="cselectCategroy" time="0.0" classname="com.croma.example.TestNGAnnotation">
+          <skipped />
+    </testcase>
+  
+            <testcase name="createUser" time="0.000" classname="com.croma.example.TestNGAnnotation" />
+      
+</testsuite>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.croma.pack1.MyTestClassTwo">
+        <methods>
+          <include name="buyMobile"/>
+          <include name="register"/>
+          <include name="makePayment"/>
+          <include name="login"/>
+          <include name="selectCategory"/>
+          <include name="runBeforeEveryMethod"/>
+          <include name="fillAddressDetails"/>
+        </methods>
+      </class> <!-- com.croma.pack1.MyTestClassTwo -->
+      <class name="com.croma.example.TestNGAnnotation">
+        <methods>
+          <include name="shippingDetails"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="paymentDetails"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="cselectCategroy"/>
+          <include name="buyItem"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- com.croma.example.TestNGAnnotation -->
+      <class name="com.croma.page.TestNGImpl">
+        <methods>
+          <include name="selectCategory"/>
+          <include name="login"/>
+          <include name="buyItem"/>
+          <include name="selectItem"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.croma.page.TestNGImpl -->
+      <class name="com.croma.example.Demo">
+        <methods>
+          <include name="createUser"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="buyItem"/>
+          <include name="selectCategroy"/>
+          <include name="shippingDetails"/>
+        </methods>
+      </class> <!-- com.croma.example.Demo -->
+      <class name="com.croma.pack1.MyTestClass">
+        <methods>
+          <include name="buyMobile"/>
+          <include name="selectCategory"/>
+          <include name="fillAddressDetails"/>
+          <include name="makePayment"/>
+          <include name="login"/>
+          <include name="register"/>
+          <include name="runBeforeClass"/>
+        </methods>
+      </class> <!-- com.croma.pack1.MyTestClass -->
+      <class name="com.croma.pack2.TestListener">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.croma.pack2.TestListener -->
+      <class name="com.croma.pack1.TestAnnotation">
+        <methods>
+          <include name="register"/>
+          <include name="fillAddressDetails"/>
+          <include name="selectCategory"/>
+          <include name="beforeClass"/>
+          <include name="buyMobile"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.croma.pack1.TestAnnotation -->
+      <class name="com.croma.pack2.TestDemo1">
+        <methods>
+          <include name="buyMobile"/>
+          <include name="register"/>
+          <include name="selectCategory"/>
+          <include name="login"/>
+          <include name="runBeforeClass"/>
+        </methods>
+      </class> <!-- com.croma.pack2.TestDemo1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

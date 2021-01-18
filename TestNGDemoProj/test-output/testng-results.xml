@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="1" ignored="0" total="37" passed="32">
+  <reporter-output>
+    <line>
+      <![CDATA[uesr rohit and pwd 1234]]>
+    </line>
+    <line>
+      <![CDATA[Creating user with proper credentials]]>
+    </line>
+    <line>
+      <![CDATA[login with cred shail and pwd: xyz]]>
+    </line>
+    <line>
+      <![CDATA[Selection electronic category]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="777" started-at="2021-01-16T03:25:26Z" finished-at="2021-01-16T03:25:27Z">
+    <groups>
+      <group name="buymobile">
+        <method signature="TestDemo1.buyMobile()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="buyMobile" class="com.croma.pack2.TestDemo1"/>
+      </group> <!-- buymobile -->
+      <group name="Sanity">
+        <method signature="Demo.createUser()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="createUser" class="com.croma.example.Demo"/>
+        <method signature="Demo.login()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="login" class="com.croma.example.Demo"/>
+        <method signature="Demo.selectCategroy()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="selectCategroy" class="com.croma.example.Demo"/>
+        <method signature="Demo.buyItem()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="buyItem" class="com.croma.example.Demo"/>
+        <method signature="Demo.shippingDetails()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="shippingDetails" class="com.croma.example.Demo"/>
+        <method signature="MyTestClass.register()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="register" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClass.login()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="login" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClassTwo.register()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="register" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.login()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="login" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.selectCategory()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="selectCategory" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.buyMobile()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="buyMobile" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.fillAddressDetails()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="fillAddressDetails" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.makePayment()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="makePayment" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="TestAnnotation.register()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="register" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestAnnotation.login()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="login" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestDemo1.register()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="register" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestDemo1.login()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="login" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestListener.testLogin()[pri:0, instance:com.croma.pack2.TestListener@c4039c]" name="testLogin" class="com.croma.pack2.TestListener"/>
+        <method signature="TestNGAnnotation.createUser()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="createUser" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGAnnotation.login(java.lang.String, java.lang.String)[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="login" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGAnnotation.cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="cselectCategroy" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGImpl.login()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="login" class="com.croma.page.TestNGImpl"/>
+        <method signature="TestNGImpl.selectCategory()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="selectCategory" class="com.croma.page.TestNGImpl"/>
+      </group> <!-- Sanity -->
+      <group name="buyMobile">
+        <method signature="MyTestClass.buyMobile()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="buyMobile" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClassTwo.buyMobile()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="buyMobile" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.fillAddressDetails()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="fillAddressDetails" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="TestAnnotation.buyMobile()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="buyMobile" class="com.croma.pack1.TestAnnotation"/>
+      </group> <!-- buyMobile -->
+      <group name="Regression">
+        <method signature="Demo.createUser()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="createUser" class="com.croma.example.Demo"/>
+        <method signature="Demo.login()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="login" class="com.croma.example.Demo"/>
+        <method signature="Demo.selectCategroy()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="selectCategroy" class="com.croma.example.Demo"/>
+        <method signature="Demo.buyItem()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="buyItem" class="com.croma.example.Demo"/>
+        <method signature="Demo.shippingDetails()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="shippingDetails" class="com.croma.example.Demo"/>
+        <method signature="MyTestClass.register()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="register" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClass.login()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="login" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClass.selectCategory()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="selectCategory" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClass.buyMobile()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="buyMobile" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClass.fillAddressDetails()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="fillAddressDetails" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClass.makePayment()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="makePayment" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClassTwo.register()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="register" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.login()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="login" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.selectCategory()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="selectCategory" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.buyMobile()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="buyMobile" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.fillAddressDetails()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="fillAddressDetails" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="MyTestClassTwo.makePayment()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="makePayment" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="TestAnnotation.register()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="register" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestAnnotation.login()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="login" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestAnnotation.selectCategory()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="selectCategory" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestAnnotation.buyMobile()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="buyMobile" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestAnnotation.fillAddressDetails()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="fillAddressDetails" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestDemo1.register()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="register" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestDemo1.login()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="login" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestDemo1.selectCategory()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="selectCategory" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestDemo1.buyMobile()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="buyMobile" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestListener.testLogin()[pri:0, instance:com.croma.pack2.TestListener@c4039c]" name="testLogin" class="com.croma.pack2.TestListener"/>
+        <method signature="TestNGAnnotation.createUser()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="createUser" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGAnnotation.login(java.lang.String, java.lang.String)[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="login" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGAnnotation.cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="cselectCategroy" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGAnnotation.buyItem()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="buyItem" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGAnnotation.shippingDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="shippingDetails" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGImpl.login()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="login" class="com.croma.page.TestNGImpl"/>
+        <method signature="TestNGImpl.selectCategory()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="selectCategory" class="com.croma.page.TestNGImpl"/>
+        <method signature="TestNGImpl.selectItem()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="selectItem" class="com.croma.page.TestNGImpl"/>
+        <method signature="TestNGImpl.buyItem()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="buyItem" class="com.croma.page.TestNGImpl"/>
+      </group> <!-- Regression -->
+      <group name="makepayment">
+        <method signature="MyTestClassTwo.makePayment()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="makePayment" class="com.croma.pack1.MyTestClassTwo"/>
+      </group> <!-- makepayment -->
+      <group name="createUser">
+        <method signature="Demo.createUser()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="createUser" class="com.croma.example.Demo"/>
+      </group> <!-- createUser -->
+      <group name="registration">
+        <method signature="MyTestClass.register()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="register" class="com.croma.pack1.MyTestClass"/>
+        <method signature="TestAnnotation.register()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="register" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestDemo1.register()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="register" class="com.croma.pack2.TestDemo1"/>
+      </group> <!-- registration -->
+      <group name="login">
+        <method signature="Demo.login()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="login" class="com.croma.example.Demo"/>
+        <method signature="MyTestClass.login()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="login" class="com.croma.pack1.MyTestClass"/>
+        <method signature="TestAnnotation.login()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="login" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestDemo1.login()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="login" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestListener.testLogin()[pri:0, instance:com.croma.pack2.TestListener@c4039c]" name="testLogin" class="com.croma.pack2.TestListener"/>
+        <method signature="TestNGAnnotation.login(java.lang.String, java.lang.String)[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="login" class="com.croma.example.TestNGAnnotation"/>
+        <method signature="TestNGImpl.login()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="login" class="com.croma.page.TestNGImpl"/>
+      </group> <!-- login -->
+      <group name="selectCategory">
+        <method signature="MyTestClass.selectCategory()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="selectCategory" class="com.croma.pack1.MyTestClass"/>
+        <method signature="MyTestClassTwo.selectCategory()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="selectCategory" class="com.croma.pack1.MyTestClassTwo"/>
+        <method signature="TestAnnotation.selectCategory()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="selectCategory" class="com.croma.pack1.TestAnnotation"/>
+        <method signature="TestDemo1.selectCategory()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="selectCategory" class="com.croma.pack2.TestDemo1"/>
+        <method signature="TestNGImpl.selectCategory()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="selectCategory" class="com.croma.page.TestNGImpl"/>
+      </group> <!-- selectCategory -->
+      <group name="register">
+        <method signature="MyTestClassTwo.register()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="register" class="com.croma.pack1.MyTestClassTwo"/>
+      </group> <!-- register -->
+      <group name="login1">
+        <method signature="MyTestClassTwo.login()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="login" class="com.croma.pack1.MyTestClassTwo"/>
+      </group> <!-- login1 -->
+    </groups>
+    <test name="Default test" duration-ms="777" started-at="2021-01-16T03:25:26Z" finished-at="2021-01-16T03:25:27Z">
+      <class name="com.croma.pack2.TestDemo1">
+        <test-method status="PASS" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="runBeforeClass" is-config="true" duration-ms="130" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.10.1.11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeClass -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="register" duration-ms="15" started-at="2021-01-16T08:55:27Z" description="Demo New user registration" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[uesr rohit and pwd 1234]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="login" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Demo login with newly created cred.." depends-on-methods="com.croma.pack2.TestDemo1.register" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectCategory()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="selectCategory" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Demo selecting mobile category" depends-on-methods="com.croma.pack2.TestDemo1.login" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="buyMobile()[pri:0, instance:com.croma.pack2.TestDemo1@be92ad]" name="buyMobile" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Demo Buying HTC android mobile" depends-on-methods="com.croma.pack2.TestDemo1.selectCategory" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyMobile -->
+      </class> <!-- com.croma.pack2.TestDemo1 -->
+      <class name="com.croma.pack1.MyTestClass">
+        <test-method status="PASS" signature="runBeforeClass(java.lang.String)[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="runBeforeClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeClass -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="register" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="New user registration" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="login" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="login with newly created cred.." depends-on-methods="com.croma.pack1.MyTestClass.register" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectCategory()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="selectCategory" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="selecting mobile category" depends-on-methods="com.croma.pack1.MyTestClass.login" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="buyMobile()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="buyMobile" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Buying HTC android mobile" depends-on-methods="com.croma.pack1.MyTestClass.selectCategory" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyMobile -->
+        <test-method status="PASS" signature="fillAddressDetails()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="fillAddressDetails" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Filling shipping details" depends-on-methods="com.croma.pack1.MyTestClass.buyMobile" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAddressDetails -->
+        <test-method status="PASS" signature="makePayment()[pri:0, instance:com.croma.pack1.MyTestClass@4edc67]" name="makePayment" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Making payment through creadit cards" depends-on-methods="com.croma.pack1.MyTestClass.fillAddressDetails" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+      </class> <!-- com.croma.pack1.MyTestClass -->
+      <class name="com.croma.example.TestNGAnnotation">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="createUser" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Create user for flipkart" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Creating user with proper credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="login" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Login with valid credentials" depends-on-methods="com.croma.example.TestNGAnnotation.createUser" finished-at="2021-01-16T08:55:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [login] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [login] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:334)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:274)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:562)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:672)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1316)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1044)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1134)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="cselectCategroy" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Selecting electronic category" depends-on-methods="com.croma.example.TestNGAnnotation.login" finished-at="2021-01-16T08:55:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNGAnnotation.cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNGAnnotation.cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cselectCategroy -->
+        <test-method status="SKIP" signature="buyItem()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="buyItem" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Buying item" depends-on-methods="com.croma.example.TestNGAnnotation.cselectCategroy" finished-at="2021-01-16T08:55:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNGAnnotation.buyItem()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNGAnnotation.buyItem()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyItem -->
+        <test-method status="SKIP" signature="shippingDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="shippingDetails" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Fill shpiing detils" depends-on-methods="com.croma.example.TestNGAnnotation.buyItem" finished-at="2021-01-16T08:55:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNGAnnotation.shippingDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNGAnnotation.shippingDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingDetails -->
+        <test-method name="paymentDetails" signature="paymentDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" depends-on-groups="Regression" status="SKIP" duration-ms="0" finished-at="2021-01-16T08:55:27Z" started-at="2021-01-16T08:55:27Z" depends-on-methods="com.croma.example.TestNGAnnotation.shippingDetails" description="Fill shpiing detils">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNGAnnotation.paymentDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods in group "Regression"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNGAnnotation.paymentDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods in group "Regression"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentDetails -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.croma.example.TestNGAnnotation -->
+      <class name="com.croma.pack2.TestListener">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.croma.pack2.TestListener@c4039c]" name="testLogin" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="login by the user" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.croma.pack2.TestListener -->
+      <class name="com.croma.example.Demo">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.croma.example.Demo@e45eb6]" name="beforeClass" is-config="true" duration-ms="5" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="createUser" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Create user with valid details" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login with cred shail and pwd: xyz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="login" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Login with correct credetials" depends-on-methods="com.croma.example.Demo.createUser" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectCategroy()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="selectCategroy" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Selecting electronic category" depends-on-methods="com.croma.example.Demo.login" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selection electronic category]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectCategroy -->
+        <test-method status="PASS" signature="buyItem()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="buyItem" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Buying item" depends-on-methods="com.croma.example.Demo.selectCategroy" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyItem -->
+        <test-method status="PASS" signature="shippingDetails()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="shippingDetails" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Fill shpiing detils" depends-on-methods="com.croma.example.Demo.buyItem" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingDetails -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.croma.example.Demo@e45eb6]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.croma.example.Demo -->
+      <class name="com.croma.pack1.MyTestClassTwo">
+        <test-method status="PASS" signature="register()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="register" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Second User registration first" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="runBeforeEveryMethod()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="runBeforeEveryMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEveryMethod -->
+        <test-method status="PASS" signature="runBeforeEveryMethod()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="runBeforeEveryMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEveryMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="login" duration-ms="1" started-at="2021-01-16T08:55:27Z" description="Second login with newly created cred.." depends-on-methods="com.croma.pack1.MyTestClassTwo.register" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runBeforeEveryMethod()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="runBeforeEveryMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEveryMethod -->
+        <test-method status="PASS" signature="selectCategory()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="selectCategory" duration-ms="300" started-at="2021-01-16T08:55:27Z" description="selecting mobile category...class2" depends-on-methods="com.croma.pack1.MyTestClassTwo.login" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="buyMobile()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="buyMobile" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="buy mobile ...class2" depends-on-methods="com.croma.pack1.MyTestClassTwo.selectCategory" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyMobile -->
+        <test-method status="PASS" signature="runBeforeEveryMethod()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="runBeforeEveryMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEveryMethod -->
+        <test-method status="PASS" signature="runBeforeEveryMethod()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="runBeforeEveryMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEveryMethod -->
+        <test-method status="PASS" signature="fillAddressDetails()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="fillAddressDetails" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="fill Address Details ...class2" depends-on-methods="com.croma.pack1.MyTestClassTwo.buyMobile" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAddressDetails -->
+        <test-method status="PASS" signature="makePayment()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="makePayment" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="makePayment ...class2" depends-on-methods="com.croma.pack1.MyTestClassTwo.fillAddressDetails" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+        <test-method status="PASS" signature="runBeforeEveryMethod()[pri:0, instance:com.croma.pack1.MyTestClassTwo@19f99ea]" name="runBeforeEveryMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEveryMethod -->
+      </class> <!-- com.croma.pack1.MyTestClassTwo -->
+      <class name="com.croma.page.TestNGImpl">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="login" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Login with valid user" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectCategory()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="selectCategory" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Select Mobile category" depends-on-methods="com.croma.page.TestNGImpl.login" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectItem()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="selectItem" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Select Nokia mobile" depends-on-methods="com.croma.page.TestNGImpl.selectCategory" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItem -->
+        <test-method status="PASS" signature="buyItem()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="buyItem" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="Buying selected item" depends-on-methods="com.croma.page.TestNGImpl.selectItem" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyItem -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.croma.page.TestNGImpl@1efef64]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.croma.page.TestNGImpl -->
+      <class name="com.croma.pack1.TestAnnotation">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-01-16T08:55:27Z" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="register" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="New user registration" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="login" duration-ms="5" started-at="2021-01-16T08:55:27Z" description="login with newly created cred.." depends-on-methods="com.croma.pack1.TestAnnotation.register" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectCategory()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="selectCategory" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="selecting mobile category" depends-on-methods="com.croma.pack1.TestAnnotation.login" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="buyMobile()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="buyMobile" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Buying HTC android mobile" depends-on-methods="com.croma.pack1.TestAnnotation.selectCategory" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyMobile -->
+        <test-method status="PASS" signature="fillAddressDetails()[pri:0, instance:com.croma.pack1.TestAnnotation@17fd0e6]" name="fillAddressDetails" duration-ms="0" started-at="2021-01-16T08:55:27Z" description="Filling shipping details" depends-on-methods="com.croma.pack1.TestAnnotation.buyMobile" finished-at="2021-01-16T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAddressDetails -->
+      </class> <!-- com.croma.pack1.TestAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

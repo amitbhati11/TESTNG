@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test1"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.061">
+  <properties />
+  
+  
+            <testcase name="buyMobile" time="0.016" classname="com.croma.pack1.MyTestClass" />
+                <testcase name="fillAddressDetails" time="0.015" classname="com.croma.pack1.MyTestClass" />
+                <testcase name="makePayment" time="0.015" classname="com.croma.pack1.MyTestClass" />
+                <testcase name="register" time="0.015" classname="com.croma.pack1.MyTestClass" />
+                <testcase name="selectCategory" time="0.000" classname="com.croma.pack1.MyTestClass" />
+                <testcase name="login" time="0.000" classname="com.croma.pack1.MyTestClass" />
+      
+</testsuite>

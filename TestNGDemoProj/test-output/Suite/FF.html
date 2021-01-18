@@ -1,0 +1,196 @@
+<html>
+<head>
+<title>TestNG:  FF</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FF</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/3</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 13 14:38:35 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (18 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: selecting mobile category...class2</td>
+<td><div><pre>java.lang.Exception
+	at com.croma.pack1.MyTestClassTwo.selectCategory(MyTestClassTwo.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace984092697", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace984092697'><pre>java.lang.Exception
+	at com.croma.pack1.MyTestClassTwo.selectCategory(MyTestClassTwo.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@2d13e4ef</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo Buying HTC android mobile</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@6b466679</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: Buying HTC android mobile</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@751b1e07</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.fillAddressDetails()'><b>fillAddressDetails</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: Filling shipping details</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@751b1e07</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.login()'><b>login</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@6b466679</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.login()'><b>login</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: Second login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@2d13e4ef</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.login()'><b>login</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@751b1e07</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.makePayment()'><b>makePayment</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: Making payment through creadit cards</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@751b1e07</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.register()'><b>register</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: Second User registration first</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@2d13e4ef</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.register()'><b>register</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo New user registration</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@6b466679</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.register()'><b>register</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: New user registration</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@751b1e07</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo selecting mobile category</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@6b466679</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: selecting mobile category</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@751b1e07</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: buy mobile ...class2</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.fillAddressDetails()'><b>fillAddressDetails</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: fill Address Details ...class2</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.makePayment()'><b>makePayment</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: makePayment ...class2</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

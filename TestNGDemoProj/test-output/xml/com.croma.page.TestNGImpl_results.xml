@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuit1"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+  
+  
+            <testcase name="selectItem" time="0.000" classname="com.croma.page.TestNGImpl" />
+                <testcase name="selectCategory" time="0.000" classname="com.croma.page.TestNGImpl" />
+                <testcase name="buyItem" time="0.000" classname="com.croma.page.TestNGImpl" />
+                <testcase name="login" time="0.000" classname="com.croma.page.TestNGImpl" />
+      
+</testsuite>

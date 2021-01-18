@@ -1,0 +1,519 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/1/4</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 16 08:55:26 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (777 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.croma.example.TestNGAnnotation.login()'><b>login</b><br>Test class: com.croma.example.TestNGAnnotation<br>Test method: Login with valid credentials</td>
+<td><div><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [login] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:334)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:274)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:562)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:672)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1316)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1044)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1134)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace17987266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17987266'><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [login] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:334)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:274)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:562)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:672)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1316)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1044)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1134)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.croma.example.TestNGAnnotation@18355a8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.croma.example.Demo.buyItem()'><b>buyItem</b><br>Test class: com.croma.example.Demo<br>Test method: Buying item</td>
+<td></td>
+<td>0</td>
+<td>com.croma.example.Demo@e45eb6</td></tr>
+<tr>
+<td title='com.croma.page.TestNGImpl.buyItem()'><b>buyItem</b><br>Test class: com.croma.page.TestNGImpl<br>Test method: Buying selected item</td>
+<td></td>
+<td>0</td>
+<td>com.croma.page.TestNGImpl@1efef64</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo Buying HTC android mobile</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@be92ad</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: Buying HTC android mobile</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@4edc67</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: buy mobile ...class2</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@19f99ea</td></tr>
+<tr>
+<td title='com.croma.pack1.TestAnnotation.buyMobile()'><b>buyMobile</b><br>Test class: com.croma.pack1.TestAnnotation<br>Test method: Buying HTC android mobile</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.TestAnnotation@17fd0e6</td></tr>
+<tr>
+<td title='com.croma.example.TestNGAnnotation.createUser()'><b>createUser</b><br>Test class: com.croma.example.TestNGAnnotation<br>Test method: Create user for flipkart<br/>
+<a href="#Output-17319689" onClick='toggleBox("Output-17319689", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17319689" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17319689">
+Creating user with proper credentials<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.croma.example.TestNGAnnotation@18355a8</td></tr>
+<tr>
+<td title='com.croma.example.Demo.createUser()'><b>createUser</b><br>Test class: com.croma.example.Demo<br>Test method: Create user with valid details<br/>
+<a href="#Output-11979724" onClick='toggleBox("Output-11979724", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11979724" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11979724">
+login with cred shail and pwd: xyz<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.croma.example.Demo@e45eb6</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.fillAddressDetails()'><b>fillAddressDetails</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: Filling shipping details</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@4edc67</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.fillAddressDetails()'><b>fillAddressDetails</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: fill Address Details ...class2</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@19f99ea</td></tr>
+<tr>
+<td title='com.croma.pack1.TestAnnotation.fillAddressDetails()'><b>fillAddressDetails</b><br>Test class: com.croma.pack1.TestAnnotation<br>Test method: Filling shipping details</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.TestAnnotation@17fd0e6</td></tr>
+<tr>
+<td title='com.croma.page.TestNGImpl.login()'><b>login</b><br>Test class: com.croma.page.TestNGImpl<br>Test method: Login with valid user</td>
+<td></td>
+<td>0</td>
+<td>com.croma.page.TestNGImpl@1efef64</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.login()'><b>login</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@be92ad</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.login()'><b>login</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@4edc67</td></tr>
+<tr>
+<td title='com.croma.example.Demo.login()'><b>login</b><br>Test class: com.croma.example.Demo<br>Test method: Login with correct credetials</td>
+<td></td>
+<td>0</td>
+<td>com.croma.example.Demo@e45eb6</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.login()'><b>login</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: Second login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@19f99ea</td></tr>
+<tr>
+<td title='com.croma.pack1.TestAnnotation.login()'><b>login</b><br>Test class: com.croma.pack1.TestAnnotation<br>Test method: login with newly created cred..</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.TestAnnotation@17fd0e6</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.makePayment()'><b>makePayment</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: Making payment through creadit cards</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@4edc67</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.makePayment()'><b>makePayment</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: makePayment ...class2</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@19f99ea</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.register()'><b>register</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo New user registration<br/>
+<a href="#Output-13818597" onClick='toggleBox("Output-13818597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13818597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13818597">
+uesr rohit and pwd 1234<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@be92ad</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.register()'><b>register</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: New user registration</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@4edc67</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.register()'><b>register</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: Second User registration first</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@19f99ea</td></tr>
+<tr>
+<td title='com.croma.pack1.TestAnnotation.register()'><b>register</b><br>Test class: com.croma.pack1.TestAnnotation<br>Test method: New user registration</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.TestAnnotation@17fd0e6</td></tr>
+<tr>
+<td title='com.croma.page.TestNGImpl.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.page.TestNGImpl<br>Test method: Select Mobile category</td>
+<td></td>
+<td>0</td>
+<td>com.croma.page.TestNGImpl@1efef64</td></tr>
+<tr>
+<td title='com.croma.pack2.TestDemo1.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack2.TestDemo1<br>Test method: Demo selecting mobile category</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestDemo1@be92ad</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClass.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack1.MyTestClass<br>Test method: selecting mobile category</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClass@4edc67</td></tr>
+<tr>
+<td title='com.croma.pack1.MyTestClassTwo.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack1.MyTestClassTwo<br>Test method: selecting mobile category...class2</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.MyTestClassTwo@19f99ea</td></tr>
+<tr>
+<td title='com.croma.pack1.TestAnnotation.selectCategory()'><b>selectCategory</b><br>Test class: com.croma.pack1.TestAnnotation<br>Test method: selecting mobile category</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack1.TestAnnotation@17fd0e6</td></tr>
+<tr>
+<td title='com.croma.example.Demo.selectCategroy()'><b>selectCategroy</b><br>Test class: com.croma.example.Demo<br>Test method: Selecting electronic category<br/>
+<a href="#Output-5257320" onClick='toggleBox("Output-5257320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5257320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5257320">
+Selection electronic category<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.croma.example.Demo@e45eb6</td></tr>
+<tr>
+<td title='com.croma.page.TestNGImpl.selectItem()'><b>selectItem</b><br>Test class: com.croma.page.TestNGImpl<br>Test method: Select Nokia mobile</td>
+<td></td>
+<td>0</td>
+<td>com.croma.page.TestNGImpl@1efef64</td></tr>
+<tr>
+<td title='com.croma.example.Demo.shippingDetails()'><b>shippingDetails</b><br>Test class: com.croma.example.Demo<br>Test method: Fill shpiing detils</td>
+<td></td>
+<td>0</td>
+<td>com.croma.example.Demo@e45eb6</td></tr>
+<tr>
+<td title='com.croma.pack2.TestListener.testLogin()'><b>testLogin</b><br>Test class: com.croma.pack2.TestListener<br>Test method: login by the user</td>
+<td></td>
+<td>0</td>
+<td>com.croma.pack2.TestListener@c4039c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.croma.example.TestNGAnnotation.buyItem()'><b>buyItem</b><br>Test class: com.croma.example.TestNGAnnotation<br>Test method: Buying item</td>
+<td><div><pre>java.lang.Throwable: Method TestNGAnnotation.buyItem()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace19517219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace19517219'><pre>java.lang.Throwable: Method TestNGAnnotation.buyItem()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.croma.example.TestNGAnnotation.cselectCategroy()'><b>cselectCategroy</b><br>Test class: com.croma.example.TestNGAnnotation<br>Test method: Selecting electronic category</td>
+<td><div><pre>java.lang.Throwable: Method TestNGAnnotation.cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace12309002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace12309002'><pre>java.lang.Throwable: Method TestNGAnnotation.cselectCategroy()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.croma.example.TestNGAnnotation.paymentDetails()'><b>paymentDetails</b><br>Test class: com.croma.example.TestNGAnnotation<br>Test method: Fill shpiing detils</td>
+<td><div><pre>java.lang.Throwable: Method TestNGAnnotation.paymentDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods in group &quot;Regression&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace7169195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7169195'><pre>java.lang.Throwable: Method TestNGAnnotation.paymentDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods in group &quot;Regression&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.croma.example.TestNGAnnotation.shippingDetails()'><b>shippingDetails</b><br>Test class: com.croma.example.TestNGAnnotation<br>Test method: Fill shpiing detils</td>
+<td><div><pre>java.lang.Throwable: Method TestNGAnnotation.shippingDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace13483509", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13483509'><pre>java.lang.Throwable: Method TestNGAnnotation.shippingDetails()[pri:0, instance:com.croma.example.TestNGAnnotation@18355a8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

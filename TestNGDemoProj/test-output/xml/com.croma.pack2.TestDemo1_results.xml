@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test1"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.010">
+  <properties />
+  
+  
+            <testcase name="register" time="0.010" classname="com.croma.pack2.TestDemo1" />
+                <testcase name="buyMobile" time="0.000" classname="com.croma.pack2.TestDemo1" />
+                <testcase name="selectCategory" time="0.000" classname="com.croma.pack2.TestDemo1" />
+                <testcase name="login" time="0.000" classname="com.croma.pack2.TestDemo1" />
+      
+</testsuite>

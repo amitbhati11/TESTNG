@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.croma.example.TestNGAnnotation">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="buyItem"/>
+          <include name="shippingDetails"/>
+          <include name="login"/>
+          <include name="cselectCategroy"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- com.croma.example.TestNGAnnotation -->
+      <class name="com.croma.example.Demo">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.croma.example.Demo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
